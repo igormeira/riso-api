@@ -19,7 +19,7 @@ USE `RISO` ;
 DROP TABLE IF EXISTS `RISO`.`tb_conceito` ;
 
 CREATE TABLE IF NOT EXISTS `RISO`.`tb_conceito` (
-  `id` INT(11) NOT NULL,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
   `termo` VARCHAR(100) NOT NULL,
   `descricao` VARCHAR(100) NULL,
   `contexto` VARCHAR(100) NULL,
@@ -28,9 +28,9 @@ CREATE TABLE IF NOT EXISTS `RISO`.`tb_conceito` (
 -- -----------------------------------------------------
 -- Table `RISO`.`tb_conceito`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `RISO`.`tb_conceito` ;
+DROP TABLE IF EXISTS `RISO`.`tb_relacao` ;
 
-CREATE TABLE IF NOT EXISTS `RISO`.`tb_conceito` (
+CREATE TABLE IF NOT EXISTS `RISO`.`tb_relacao` (
   `id_conceito_principal` INT(11) NOT NULL,
   `id_conceito_secundario` INT(11) NOT NULL,
   `relacao` VARCHAR(100) NOT NULL,
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS `RISO`.`tb_conceito` (
 DROP TABLE IF EXISTS `RISO`.`tb_documento` ;
 
 CREATE TABLE IF NOT EXISTS `RISO`.`tb_documento` (
-  `id` INT(11) NOT NULL,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(100) NOT NULL,
   `contexto` VARCHAR(100) NULL,
   `arquivo` LONGTEXT NOT NULL,

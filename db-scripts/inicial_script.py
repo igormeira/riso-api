@@ -29,36 +29,52 @@ def execute_many_BD(insert,values):
 
 	conn.close()
 
-def insertConcept(term, desc, ctxt, file):
+def insertDocument():
+	execute_many_BD("""INSERT INTO tb_documento (nome) VALUES (%s)""", [str(file)])
+
+def insertConcept(term, ctxt):
 	for hc in ctxt:
 		limit = len(hc) - 1
 		hc = hc[1:limit]
+		execute_many_BD("""INSERT INTO tb_conceito (termo,contexto) VALUES (%s,%s)""", [term, ctxt])
 
 def concepts(data_file):
 	term = ""
-	desc = ""
-	ctxt = ""
+	ctxt = "thing"
+	for line in data_file:
+		limit = len(line) - 3
+		if "\"Term\"" in line:
+			term = line[8:limit]
+		elif "\"hasContext\"" in line:
+			ctxt = line[15:limit+1]
+			ctxt = ctxt.split(", ")
+		else:
+			if term != "" and ctxt != "thing":
+				insertConcept(term, ctxt)
+				term = ""
+				ctxt = "thing"
+	dictRel = {}
 	for line in data_file:
 		limit = len(line) - 3
 		if "\"Term\"" in line:
 			term = line[8:limit]
 		elif "\"Description\"" in line:
-			desc = line[15:limit]
-		elif "\"hasContext\"" in line:
-			ctxt = line[15:limit+1]
-			ctxt = ctxt.split(", ")
+			dictRel["desc"] = line[15:limit]
+		elif "}" in line:
+			None
 		else:
-			if term == "":
-				insertConcept(term, desc, ctxt, file)
-				term = ""
-				desc = ""
-				ctxt = ""
+			limitRel = line.find(":")
+			rel = line[1:limitRel - 1]
+			limitList = line.find("]")
+			lis = line[limitRel + 3:limitList - 1]
+			dictRel[rel] = lis
 
-def
+
 
 # Open a file
 path = "../data/"
 dirs = os.listdir( path )
 for file in dirs:
 	with open(path+file) as data_file:
+		insertDocument() #Put document into DB
 		concepts(data_file) #Put concepts into DB
