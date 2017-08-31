@@ -1,4 +1,3 @@
-doc = [
 {
 "Term":"Confederacy",
 "hasContext": ["geographical area", "south"]
