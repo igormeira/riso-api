@@ -16,24 +16,24 @@ USE `RISO` ;
 -- -----------------------------------------------------
 -- Table `RISO`.`tb_conceito`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `RISO`.`tb_conceito` ;
+DROP TABLE IF EXISTS `RISO`.`tb_conceito`;
 
 CREATE TABLE IF NOT EXISTS `RISO`.`tb_conceito` (
-  `id` INT(11) NOT NULL,
-  `termo` VARCHAR(100) NOT NULL,
-  `descricao` VARCHAR(100) NULL,
-  `contexto` VARCHAR(100) NULL,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `termo` MEDIUMTEXT NOT NULL,
+  `descricao` MEDIUMTEXT NULL,
+  `contexto` MEDIUMTEXT NULL,
   PRIMARY KEY (`id`));
 
 -- -----------------------------------------------------
 -- Table `RISO`.`tb_relacao`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `RISO`.`tb_relacao` ;
+DROP TABLE IF EXISTS `RISO`.`tb_relacao_semantica`;
 
-CREATE TABLE IF NOT EXISTS `RISO`.`tb_relacao` (
+CREATE TABLE IF NOT EXISTS `RISO`.`tb_relacao_semantica` (
   `id_conceito_principal` INT(11) NOT NULL,
   `id_conceito_secundario` INT(11) NOT NULL,
-  `relacao` VARCHAR(100) NOT NULL,
+  `relacao` MEDIUMTEXT NOT NULL,
   INDEX `fk_tb_conceito_idx` (`id_conceito_principal` ASC),
   FOREIGN KEY (`id_conceito_principal`)
     REFERENCES `RISO`.`tb_conceito` (`id`)
@@ -47,19 +47,19 @@ CREATE TABLE IF NOT EXISTS `RISO`.`tb_relacao` (
 -- -----------------------------------------------------
 -- Table `RISO`.`tb_documento`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `RISO`.`tb_documento` ;
+DROP TABLE IF EXISTS `RISO`.`tb_documento`;
 
 CREATE TABLE IF NOT EXISTS `RISO`.`tb_documento` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
-  `nome` VARCHAR(100) NOT NULL,
-  `contexto` VARCHAR(100) NULL,
-  `arquivo` LONGTEXT NOT NULL,
+  `nome` MEDIUMTEXT NOT NULL,
+  `contexto` MEDIUMTEXT NULL,
+  `arquivo` LONGTEXT NULL,
   PRIMARY KEY (`id`));
 
 -- -----------------------------------------------------
 -- Table `RISO`.`tb_conceito_documento`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `RISO`.`tb_conceito_documento` ;
+DROP TABLE IF EXISTS `RISO`.`tb_conceito_documento`;
 
 CREATE TABLE IF NOT EXISTS `RISO`.`tb_conceito_documento` (
   `id_conceito` INT(11) NOT NULL,
