@@ -1,0 +1,204 @@
+{
+"Term":"killed "
+},
+
+{
+"Term":"hattiesburg",
+"Description":"a town in southeast mississippi",
+"PartOf": ["mississippi"]
+},
+
+{
+"Term":"troops"
+},
+
+{
+"Term":"jazz",
+"AtLocation": ["new orleans"]
+},
+
+{
+"Term":"big bend national park",
+"Description":"a large national park in texas featuring mountains and desert and canyons and wildlife",
+"PartOf": ["texas"]
+},
+
+{
+"Term":"soldier",
+"Description":"an enlisted man or woman who serves in an army"
+},
+
+{
+"Term":"Alabama",
+"hasContext": ["muskhogean", "state", "gulf state"]
+},
+
+{
+"Term":"abraham lincoln",
+"Description":"morse books",
+"IsA": ["book"]
+},
+
+{
+"Term":"Nashville",
+"hasContext": ["tv show", "georgia", "illinois", "radio station", "north carolina", "tennessee", "state capital"]
+},
+
+{
+"Term":"sign",
+"DerivedFrom": ["signer"]
+},
+
+{
+"Term":"mississippi river",
+"DefinedAs": ["long river in unite state"],
+"IsA": ["river"],
+"InstanceOf": ["natural place"]
+},
+
+{
+"Term":"hooker",
+"Description":"the player in the middle of the front row of the scrum who tries to capture the ball with the foot",
+"HasContext": ["rugby"]
+},
+
+{
+"Term":"General Franz Sigel "
+},
+
+{
+"Term":"kola peninsula",
+"Description":"a peninsula in northwestern russia projecting eastward between the barents sea and the white sea",
+"InstanceOf": ["peninsula"]
+},
+
+{
+"Term":"lie down"
+},
+
+{
+"Term":"arabian peninsula",
+"Description":"a peninsula between the red sea and the persian gulf",
+"InstanceOf": ["peninsula"]
+},
+
+{
+"Term":"isle",
+"AtLocation": ["sea"]
+},
+
+{
+"Term":"install"
+},
+
+{
+"Term":"McClellan "
+},
+
+{
+"Term":"  -05-1861 to   -05-1861 "
+},
+
+{
+"Term":"burnside",
+"Description":"tv series",
+"IsA": ["tv show"]
+},
+
+{
+"Term":"vicksburg",
+"Description":"a town in western mississippi on bluffs above the mississippi river to the west of jackson",
+"PartOf": ["mississippi"]
+},
+
+{
+"Term":"spring",
+"Synonym": ["jump"]
+},
+
+{
+"Term":"last useful Southern port "
+},
+
+{
+"Term":"collapse",
+"Description":"an abrupt failure of function or complete physical exhaustion"
+},
+
+{
+"Term":"Confederate hands"
+},
+
+{
+"Term":"spring "
+},
+
+{
+"Term":"Mississippi "
+},
+
+{
+"Term":"north",
+"Description":"a location in the northern part of a country region or city",
+"Attribute": ["northern"]
+},
+
+{
+"Term":"american civil war",
+"Description":"civil war in the united states between the north and the south"
+},
+
+{
+"Term":"pluralism",
+"Description":"a social organization in which diversity of racial or religious or ethnic or cultural groups is tolerated",
+"IsA": ["social organization"]
+},
+
+{
+"Term":"several Northern governors"
+},
+
+{
+"Term":"placental",
+"Description":"mammals having a placenta"
+},
+
+{
+"Term":"lee",
+"Description":"united states striptease artist who became famous on broadway in the 1930s",
+"InstanceOf": ["stripper"]
+},
+
+{
+"Term":"june",
+"IsA": ["month"]
+},
+
+{
+"Term":"last month of year"
+},
+
+{
+"Term":"arm force day",
+"Description":"the 3rd saturday in may",
+"PartOf": ["may"]
+},
+
+{
+"Term":"kanawha",
+"Description":"a tributary of the ohio river in west virginia",
+"PartOf": ["west virginia"]
+},
+
+{
+"Term":"leader of unite state"
+},
+
+{
+"Term":"union blockade",
+"InstanceOf": ["military conflict", "event", "societal event"]
+},
+
+{
+"Term":"Confederate States of America "
+}

@@ -1,0 +1,150 @@
+{
+"Term":"Confederacy",
+"hasContext": ["geographical area", "south"]
+},
+
+{
+"Term":"rappahannock",
+"Description":"a river that flows across eastern virginia into the tidewater region",
+"PartOf": ["virginia"]
+},
+
+{
+"Term":"burnside",
+"IsA": ["single broadcast tv show"],
+"EtymologicallyDerivedFrom": ["burn", "side"]
+},
+
+{
+"Term":"communication",
+"Description":"the activity of communicating"
+},
+
+{
+"Term":"nashville hot chicken",
+"RelatedTo": ["nashville"]
+},
+
+{
+"Term":"president of unite state",
+"Description":"the person who holds the office of head of state of the united states government"
+},
+
+{
+"Term":"Maryland "
+},
+
+{
+"Term":"Anaconda Plan "
+},
+
+{
+"Term":"West "
+},
+
+{
+"Term":"north",
+"Description":"the direction in which a compass needle points",
+"IsA": ["direction"]
+},
+
+{
+"Term":"Valley Campaigns "
+},
+
+{
+"Term":"blockade",
+"hasContext": ["blockade", "military", "military action", "besiege", "blockade", "obstruct", "blockade"]
+},
+
+{
+"Term":"  -02-   to   -02-   "
+},
+
+{
+"Term":"savannah",
+"Synonym": ["grassland with some scrub growth"]
+},
+
+{
+"Term":"great new orleans bridge",
+"Description":"twin cantilever bridges across the mississippi at new orleans",
+"PartOf": ["new orleans"]
+},
+
+{
+"Term":"tennessee",
+"Description":"a river formed by the confluence of two other rivers near knoxville",
+"PartOf": ["tennessee", "kentucky"]
+},
+
+{
+"Term":"lee",
+"Description":"the side of something that is sheltered from the wind",
+"IsA": ["side"],
+"Antonym": ["windward"]
+},
+
+{
+"Term":"georgia",
+"IsA": ["state"]
+},
+
+{
+"Term":"Union "
+},
+
+{
+"Term":"Army "
+},
+
+{
+"Term":"general",
+"Description":"a general officer of the highest rank",
+"HasContext": ["military"]
+},
+
+{
+"Term":"besiege"
+},
+
+{
+"Term":"father&apos;s day",
+"Description":"third sunday in june",
+"PartOf": ["june"]
+},
+
+{
+"Term":"car",
+"PartOf": ["traffic"]
+},
+
+{
+"Term":"halted "
+},
+
+{
+"Term":"virginia",
+"IsA": ["state"]
+},
+
+{
+"Term":"large body of salt water"
+},
+
+{
+"Term":"alabama",
+"Description":"a state in the southeastern united states on the gulf of mexico",
+"MemberOf": ["confederacy"]
+},
+
+{
+"Term":"simony",
+"Description":"traffic in ecclesiastical offices or preferments",
+"IsA": ["traffic"]
+},
+
+{
+"Term":"get",
+"DerivedFrom": ["capture"]
+}

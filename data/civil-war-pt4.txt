@@ -1,0 +1,274 @@
+{
+"Term":"Confederate President Jefferson Davis"
+},
+
+{
+"Term":"abraham lincoln",
+"RelatedTo": ["emancipator"]
+},
+
+{
+"Term":"Confederate hands "
+},
+
+{
+"Term":"fish",
+"RelatedTo": ["sea"]
+},
+
+{
+"Term":"cricketer"
+},
+
+{
+"Term":"Johnston",
+"hasContext": ["habitational", "johnston", "scottish", "cricketer", "surname", "person", "english", "general"]
+},
+
+{
+"Term":"south carolina",
+"Description":"a state in the deep south",
+"PartOf": ["deep south", "carolina"]
+},
+
+{
+"Term":"md",
+"RelatedTo": ["maryland"]
+},
+
+{
+"Term":"playhouse"
+},
+
+{
+"Term":"eyre peninsula",
+"Description":"a peninsula of southern australia",
+"InstanceOf": ["peninsula"]
+},
+
+{
+"Term":"  -02-1861 to   -02-1861 "
+},
+
+{
+"Term":"lead troop"
+},
+
+{
+"Term":"lee",
+"Description":"american general who led the confederate armies in the american civil war",
+"InstanceOf": ["general"]
+},
+
+{
+"Term":"human",
+"AtLocation": ["battle"]
+},
+
+{
+"Term":"Peninsula Campaign",
+"hasContext": ["military conflict", "event", "societal event"]
+},
+
+{
+"Term":"celebrate"
+},
+
+{
+"Term":"met "
+},
+
+{
+"Term":"alaska peninsula",
+"Description":"a peninsula of southwestern alaska",
+"InstanceOf": ["peninsula"]
+},
+
+{
+"Term":"Virginia",
+"hasContext": ["state", "virginia"]
+},
+
+{
+"Term":"june",
+"Description":"the month following may and preceding july"
+},
+
+{
+"Term":"fortress",
+"Description":"a fortified defensive structure"
+},
+
+{
+"Term":"after"
+},
+
+{
+"Term":"orders"
+},
+
+{
+"Term":"Washington",
+"hasContext": ["washington", "washington", "state", "general"]
+},
+
+{
+"Term":"Battle of Fredericksburg "
+},
+
+{
+"Term":"american revolutionary leader",
+"Description":"a nationalist leader in the american revolution and in the creation of the united states"
+},
+
+{
+"Term":"hold to elect president"
+},
+
+{
+"Term":"plural",
+"Description":"the form of a word that is used to denote more than one"
+},
+
+{
+"Term":"add up"
+},
+
+{
+"Term":"anemone",
+"AtLocation": ["atlantic ocean"]
+},
+
+{
+"Term":"emancipator"
+},
+
+{
+"Term":"trophy",
+"SymbolOf": ["victory"]
+},
+
+{
+"Term":"bolivar",
+"Description":"venezuelan statesman who led the revolt of south american colonies against spanish rule",
+"InstanceOf": ["general"]
+},
+
+{
+"Term":"artillery"
+},
+
+{
+"Term":"reelection of Lincoln"
+},
+
+{
+"Term":"plain",
+"AtLocation": ["georgia"]
+},
+
+{
+"Term":"second battle of fort fisher",
+"IsA": ["conflict"],
+"InstanceOf": ["military conflict", "event", "societal event"]
+},
+
+{
+"Term":"astonishing losses"
+},
+
+{
+"Term":"tennessee"
+},
+
+{
+"Term":"film"
+},
+
+{
+"Term":"single day",
+"InstanceOf": ["holiday", "international"]
+},
+
+{
+"Term":"street"
+},
+
+{
+"Term":"end",
+"Description":"a final part or section"
+},
+
+{
+"Term":"thrash",
+"Description":"a sound defeat",
+"IsA": ["defeat"]
+},
+
+{
+"Term":"grant",
+"Synonym": ["grant money"]
+},
+
+{
+"Term":"johnson city",
+"Description":"a town in northeastern tennessee",
+"PartOf": ["tennessee"]
+},
+
+{
+"Term":"govern country"
+},
+
+{
+"Term":"gulf state",
+"Description":"a region of the united states comprising states bordering the gulf of mexico"
+},
+
+{
+"Term":"snake",
+"AtLocation": ["texas", "mississippi"]
+},
+
+{
+"Term":"spring",
+"IsA": ["season"]
+},
+
+{
+"Term":"geographical area",
+"Description":"a demarcated area of the earth"
+},
+
+{
+"Term":"regular international shipments "
+},
+
+{
+"Term":"side",
+"Description":"a surface forming part of the outside of an object"
+},
+
+{
+"Term":"Second Bull Run "
+},
+
+{
+"Term":"livestock",
+"hasContext": ["live in barn", "placental", "stocker"]
+},
+
+{
+"Term":"may",
+"Description":"the month following april and preceding june"
+},
+
+{
+"Term":"ambulant"
+},
+
+{
+"Term":"tuscaloosa",
+"Description":"a university town in west central alabama",
+"PartOf": ["alabama"]
+}

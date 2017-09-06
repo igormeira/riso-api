@@ -1,0 +1,318 @@
+{
+"Term":"death",
+"AtLocation": ["war"]
+},
+
+{
+"Term":"benjamin butler",
+"Description":"politician",
+"InstanceOf": ["congressman", "politician", "person"]
+},
+
+{
+"Term":"Alabama "
+},
+
+{
+"Term":"end",
+"RelatedTo": ["finish"]
+},
+
+{
+"Term":"Grant commander "
+},
+
+{
+"Term":"set",
+"RelatedTo": ["advance"]
+},
+
+{
+"Term":"Johnston "
+},
+
+{
+"Term":"person",
+"CapableOf": ["plan"]
+},
+
+{
+"Term":"Union control "
+},
+
+{
+"Term":"nashville",
+"IsA": ["radio station"]
+},
+
+{
+"Term":"river",
+"Description":"a large natural stream of water"
+},
+
+{
+"Term":"capture",
+"Description":"any process in which an atomic or nuclear system acquires an additional particle"
+},
+
+{
+"Term":"capture of Vicksburg"
+},
+
+{
+"Term":"north",
+"Description":"the region of the united states lying to the north of the mason dixon line",
+"Attribute": ["northern"]
+},
+
+{
+"Term":"season",
+"Description":"one of the natural periods into which the year is divided by the equinoxes and solstices or atmospheric conditions"
+},
+
+{
+"Term":"sherman",
+"RelatedTo": ["jewish"]
+},
+
+{
+"Term":"Confederate government "
+},
+
+{
+"Term":"mississippi river",
+"Description":"ontario",
+"IsA": ["river"]
+},
+
+{
+"Term":"east",
+"Description":"the region of the united states lying to the north of the ohio river and to the east of the mississippi river",
+"InstanceOf": ["geographical area"]
+},
+
+{
+"Term":"hasText"
+},
+
+{
+"Term":"musician",
+"InstanceOf": ["musical artist", "person"]
+},
+
+{
+"Term":"way",
+"Description":"a course of conduct"
+},
+
+{
+"Term":"san francisco",
+"PartOf": ["california"]
+},
+
+{
+"Term":"fusion",
+"Description":"an occurrence that involves the production of a union",
+"IsA": ["union"]
+},
+
+{
+"Term":"General Lee "
+},
+
+{
+"Term":"north carolina"
+},
+
+{
+"Term":"capitol",
+"Description":"the government building in washington where the united states senate and the house of representatives meet",
+"PartOf": ["washington"]
+},
+
+{
+"Term":"grant in aid",
+"Description":"a grant to a person or school for some educational project",
+"IsA": ["grant"]
+},
+
+{
+"Term":"american state",
+"Description":"one of the 50 states of the united states"
+},
+
+{
+"Term":"annunciation",
+"Description":"a festival commemorating the announcement of the incarnation by the angel gabriel to the virgin mary",
+"PartOf": ["march"]
+},
+
+{
+"Term":"major fight"
+},
+
+{
+"Term":"Sharpsburg"
+},
+
+{
+"Term":"fortress"
+},
+
+{
+"Term":"summer solstice",
+"Description":"june 21 when the sun is at its northernmost point",
+"PartOf": ["june"]
+},
+
+{
+"Term":"live in barn"
+},
+
+{
+"Term":"agropastoralist",
+"RelatedTo": ["livestock"]
+},
+
+{
+"Term":"alabama",
+"RelatedTo": ["montgomery"]
+},
+
+{
+"Term":"state capital",
+"Description":"the capital city of a political subdivision of a country"
+},
+
+{
+"Term":"analyze",
+"DerivedFrom": ["breakdown"]
+},
+
+{
+"Term":"state militias"
+},
+
+{
+"Term":"march",
+"Description":"a procession of people walking together"
+},
+
+{
+"Term":"ranch house",
+"AtLocation": ["texas"]
+},
+
+{
+"Term":"crisis "
+},
+
+{
+"Term":"pressure",
+"hasContext": ["pressure", "pressure", "pressure"]
+},
+
+{
+"Term":"single",
+"InstanceOf": ["musical work"]
+},
+
+{
+"Term":"peninsula",
+"Description":"a large mass of land projecting into a body of water"
+},
+
+{
+"Term":"Shenandoah Valley "
+},
+
+{
+"Term":"kentucky",
+"Description":"a state in east central united states"
+},
+
+{
+"Term":"west potomac park",
+"AtLocation": ["potomac river"]
+},
+
+{
+"Term":"natural place"
+},
+
+{
+"Term":"victory",
+"CausesDesire": ["celebrate"]
+},
+
+{
+"Term":"control",
+"DerivedFrom": ["commander"]
+},
+
+{
+"Term":"way"
+},
+
+{
+"Term":"smoke cigar"
+},
+
+{
+"Term":"golfer",
+"Description":"someone who plays the game of golf"
+},
+
+{
+"Term":"McClellan"
+},
+
+{
+"Term":"traffic",
+"Description":"the amount of activity over a communication system during a given period of time",
+"IsA": ["communication"]
+},
+
+{
+"Term":"Union Navy "
+},
+
+{
+"Term":"January",
+"hasContext": ["january", "first month of year", "gregorian calendar month"]
+},
+
+{
+"Term":"Burnside",
+"hasContext": ["side", "whisker"],
+"hasContext": ["general", "beard", "cheek", "moustache", "chin", "burn", "single broadcast tv show", "tv show"]
+},
+
+{
+"Term":"may"
+},
+
+{
+"Term":"put in"
+},
+
+{
+"Term":"defeated "
+},
+
+{
+"Term":"Confederate President Jefferson Davis "
+},
+
+{
+"Term":"New Orleans "
+},
+
+{
+"Term":"temporary capital "
+},
+
+{
+"Term":"cell",
+"RelatedTo": ["mobile"]
+}

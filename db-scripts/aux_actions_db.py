@@ -7,7 +7,7 @@ import MySQLdb
 
 def consulta_BD(query):
 	""" Connect to MySQL database """
-	conn = MySQLdb.connect(read_default_group='INSA',db="INSA")
+	conn = MySQLdb.connect(read_default_group='RISO',db="RISO")
 	cursor = conn.cursor()
 	rows = []
 	try:
@@ -24,7 +24,7 @@ def consulta_BD(query):
 
 def update_BD(query):
 	""" Connect to MySQL database """
-	conn = MySQLdb.connect(read_default_group='INSA',db="INSA")
+	conn = MySQLdb.connect(read_default_group='RISO',db="RISO")
 	cursor = conn.cursor()
 	try:
 		cursor.execute(query)

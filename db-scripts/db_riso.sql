@@ -19,14 +19,14 @@ USE `RISO` ;
 DROP TABLE IF EXISTS `RISO`.`tb_conceito` ;
 
 CREATE TABLE IF NOT EXISTS `RISO`.`tb_conceito` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `id` INT(11) NOT NULL,
   `termo` VARCHAR(100) NOT NULL,
   `descricao` VARCHAR(100) NULL,
   `contexto` VARCHAR(100) NULL,
   PRIMARY KEY (`id`));
 
 -- -----------------------------------------------------
--- Table `RISO`.`tb_conceito`
+-- Table `RISO`.`tb_relacao`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `RISO`.`tb_relacao` ;
 
@@ -35,14 +35,12 @@ CREATE TABLE IF NOT EXISTS `RISO`.`tb_relacao` (
   `id_conceito_secundario` INT(11) NOT NULL,
   `relacao` VARCHAR(100) NOT NULL,
   INDEX `fk_tb_conceito_idx` (`id_conceito_principal` ASC),
-  CONSTRAINT `fk_tb_conceito_principal`
-    FOREIGN KEY (`id_conceito_principal`)
-    REFERENCES `INSA`.`tb_conceito` (`id`)
+  FOREIGN KEY (`id_conceito_principal`)
+    REFERENCES `RISO`.`tb_conceito` (`id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION),
-  CONSTRAINT `fk_tb_conceito_secundario`
-    FOREIGN KEY (`id_conceito_secundario`)
-    REFERENCES `INSA`.`tb_conceito` (`id`)
+    ON UPDATE NO ACTION,
+  FOREIGN KEY (`id_conceito_secundario`)
+    REFERENCES `RISO`.`tb_conceito` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 
@@ -69,11 +67,11 @@ CREATE TABLE IF NOT EXISTS `RISO`.`tb_conceito_documento` (
   INDEX `fk_tb_documento_idx` (`id_documento` ASC),
   CONSTRAINT `fk_tb_conceito_documento`
     FOREIGN KEY (`id_conceito`)
-    REFERENCES `INSA`.`tb_conceito` (`id`)
+    REFERENCES `RISO`.`tb_conceito` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_tb_conceito_documento_2`
     FOREIGN KEY (`id_documento`)
-    REFERENCES `INSA`.`tb_documento` (`id`)
+    REFERENCES `RISO`.`tb_documento` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);

@@ -1,0 +1,2825 @@
+{
+"Term":"Hooker",
+"hasContext": ["golfer", "on street", "supply sex for money", "any large city"],
+"hasContext": ["motel", "street corner", "city", "general", "rugby", "bedroom"]
+},
+
+{
+"Term":"first invasion",
+"hasContext": ["musical work", "dance music", "pop music"]
+},
+
+{
+"Term":"union",
+"Description":"the united states"
+},
+
+{
+"Term":"made",
+"RelatedTo": ["past", "second person singular", "make"]
+},
+
+{
+"Term":"new orleans",
+"IsA": ["city"],
+"HasProperty": ["famous for jazz"]
+},
+
+{
+"Term":"january",
+"DefinedAs": ["first month of year"]
+},
+
+{
+"Term":"AtLocation"
+},
+
+{
+"Term":"central tennessee",
+"InstanceOf": ["populate place", "settlement", "place", "census designate place"]
+},
+
+{
+"Term":"way",
+"hasContext": ["way", "distance", "way", "way"]
+},
+
+{
+"Term":"breakdown",
+"Description":"a cessation of normal operation"
+},
+
+{
+"Term":"commander",
+"hasContext": ["leader", "commission naval officer", "leader", "commandership", "military"]
+},
+
+{
+"Term":"  -01-1865 to   -01-1865 "
+},
+
+{
+"Term":"troop"
+},
+
+{
+"Term":"blockade"
+},
+
+{
+"Term":"carolina",
+"Description":"the area of the states of north carolina and south carolina"
+},
+
+{
+"Term":"new year&apos;s eve",
+"Description":"the last day of the year",
+"PartOf": ["december"]
+},
+
+{
+"Term":"defeat",
+"hasContext": ["defeat", "get good of", "person", "victory", "lick", "loss", "lose"]
+},
+
+{
+"Term":"indian ocean",
+"AtLocation": ["east"]
+},
+
+{
+"Term":"pop music"
+},
+
+{
+"Term":"humiliated"
+},
+
+{
+"Term":"gates of Richmond "
+},
+
+{
+"Term":"defeat",
+"Description":"people who are defeated",
+"IsA": ["person"]
+},
+
+{
+"Term":"nuclear physicist",
+"Description":"a physicist who specializes in nuclear physics"
+},
+
+{
+"Term":"shenandoah valley",
+"Description":"a large valley between the allegheny mountains and the blue ridge mountains in northern virginia",
+"PartOf": ["virginia"]
+},
+
+{
+"Term":"georgia",
+"Description":"a state in southeastern united states",
+"MemberOf": ["confederacy"]
+},
+
+{
+"Term":"mobile",
+"SimilarTo": ["ambulant", "rangy", "perambulate", "versatile"]
+},
+
+{
+"Term":"elect"
+},
+
+{
+"Term":"lincoln car"
+},
+
+{
+"Term":"york river",
+"Description":"virginia",
+"InstanceOf": ["natural place", "place", "river"]
+},
+
+{
+"Term":"montgomery",
+"Description":"english general during world war ii",
+"InstanceOf": ["general"]
+},
+
+{
+"Term":"season"
+},
+
+{
+"Term":"adopted "
+},
+
+{
+"Term":"Confederates"
+},
+
+{
+"Term":"jump"
+},
+
+{
+"Term":"Lee",
+"hasContext": ["side", "general", "plural", "nuclear physicist", "soldier", "leer", "american revolutionary leader", "sediment", "stripper"]
+},
+
+{
+"Term":"forces "
+},
+
+{
+"Term":"moncena dunn",
+"Description":"soldier"
+},
+
+{
+"Term":"govern nation"
+},
+
+{
+"Term":"change society"
+},
+
+{
+"Term":"sherman",
+"Description":"town",
+"IsA": ["populate area"]
+},
+
+{
+"Term":"represent"
+},
+
+{
+"Term":"hydrostatic head",
+"Description":"the pressure at a given point in a liquid measured in terms of the vertical height of a column of the liquid needed to produce the same pressure",
+"IsA": ["pressure"]
+},
+
+{
+"Term":"army"
+},
+
+{
+"Term":"book"
+},
+
+{
+"Term":"grow"
+},
+
+{
+"Term":"Atlantic Ocean",
+"hasContext": ["ship", "earth", "ocean dump", "very vast body of water", "sail on"]
+},
+
+{
+"Term":"maryland",
+"IsA": ["state"]
+},
+
+{
+"Term":"alabama",
+"Description":"a river in alabama formed by the confluence of the coosa and tallapoosa rivers near montgomery",
+"PartOf": ["alabama"]
+},
+
+{
+"Term":"workplace"
+},
+
+{
+"Term":"Attribute"
+},
+
+{
+"Term":"any large city"
+},
+
+{
+"Term":"cobb point bar light",
+"AtLocation": ["potomac river"]
+},
+
+{
+"Term":"  -  -1861 to   -  -1863 "
+},
+
+{
+"Term":"fredericksburg",
+"Description":"a town in northeastern virginia on the rappahannock river",
+"PartOf": ["virginia"]
+},
+
+{
+"Term":"Winfield Scott "
+},
+
+{
+"Term":"number",
+"RelatedTo": ["digit"],
+"ReceivesAction": ["add up"]
+},
+
+{
+"Term":"congressman"
+},
+
+{
+"Term":"shark",
+"AtLocation": ["atlantic ocean"]
+},
+
+{
+"Term":"outage",
+"Description":"a temporary suspension of operation",
+"IsA": ["breakdown"]
+},
+
+{
+"Term":"campaign"
+},
+
+{
+"Term":"repeated "
+},
+
+{
+"Term":"biloxi",
+"Description":"an old town in southern mississippi on the gulf of mexico",
+"PartOf": ["mississippi"]
+},
+
+{
+"Term":"secession",
+"Description":"an austrian school of art and architecture parallel to the french art nouveau in the 1890s",
+"IsA": ["artistic movement", "school"]
+},
+
+{
+"Term":"major battles "
+},
+
+{
+"Term":"air",
+"HasA": ["pressure"]
+},
+
+{
+"Term":"heart",
+"hasContext": ["person", "body", "red", "pump for blood", "pump blood"]
+},
+
+{
+"Term":"mississippi",
+"IsA": ["state"]
+},
+
+{
+"Term":"temporary capital"
+},
+
+{
+"Term":"retreat",
+"SimilarTo": ["withdraw"]
+},
+
+{
+"Term":"repeated"
+},
+
+{
+"Term":"george bowman",
+"Description":"pioneer"
+},
+
+{
+"Term":"jewish"
+},
+
+{
+"Term":"top subordinates James Longstreet "
+},
+
+{
+"Term":"fort "
+},
+
+{
+"Term":"triggered "
+},
+
+{
+"Term":"Stonewall Jackson "
+},
+
+{
+"Term":"blockader",
+"RelatedTo": ["blockade"]
+},
+
+{
+"Term":"knife",
+"UsedFor": ["cut"]
+},
+
+{
+"Term":"nashville",
+"Description":"tv series",
+"IsA": ["tv show"]
+},
+
+{
+"Term":"men",
+"hasContext": ["do laundry", "male", "strong than woman", "wear hat", "father child"],
+"hasContext": ["age gracefully", "father their child", "fancy woman", "smoke cigar"]
+},
+
+{
+"Term":"Texas "
+},
+
+{
+"Term":"Southern states"
+},
+
+{
+"Term":"end",
+"DerivedFrom": ["end point", "end"]
+},
+
+{
+"Term":"fayetteville",
+"Description":"a town in central west virginia on the new river",
+"PartOf": ["west virginia"]
+},
+
+{
+"Term":"christmas",
+"Description":"period extending from dec 24 to jan 6",
+"PartOf": ["january", "december"]
+},
+
+{
+"Term":"secede",
+"Synonym": ["secession"]
+},
+
+{
+"Term":"Savannah",
+"hasContext": ["south carolina", "port", "river", "grassland with some scrub growth", "city", "unite state", "georgia"]
+},
+
+{
+"Term":"Union forces "
+},
+
+{
+"Term":"craft union",
+"Description":"a labor union whose membership is restricted to workers in a particular craft",
+"IsA": ["union"]
+},
+
+{
+"Term":"geyser",
+"Description":"a spring that discharges hot water and steam",
+"IsA": ["spring"]
+},
+
+{
+"Term":"big bend",
+"Description":"a triangular area in southwestern texas on the mexican border",
+"PartOf": ["texas"]
+},
+
+{
+"Term":"reached"
+},
+
+{
+"Term":"next day",
+"InstanceOf": ["album"]
+},
+
+{
+"Term":"tallapoosa",
+"Description":"river that rises in northwestern georgia and flows southwest through central alabama to join the coosa river near montgomery and form the alabama river",
+"PartOf": ["alabama"]
+},
+
+{
+"Term":"sea",
+"hasContext": ["water", "large body of salt water", "swim in"]
+},
+
+{
+"Term":"readied"
+},
+
+{
+"Term":"withdrawal",
+"Description":"the act of withdrawing"
+},
+
+{
+"Term":"Benjamin Butler",
+"hasContext": ["congressman", "politician", "person"]
+},
+
+{
+"Term":"pee dee",
+"Description":"a river that flows through central north carolina and northeastern south carolina to the atlantic ocean",
+"PartOf": ["south carolina"]
+},
+
+{
+"Term":"cut",
+"hasContext": ["slice", "knife"]
+},
+
+{
+"Term":"James River "
+},
+
+{
+"Term":"Lee "
+},
+
+{
+"Term":"atlanta",
+"Description":"a siege in which federal troops under sherman cut off the railroads supplying the city and then burned it",
+"HasContext": ["atlanta"],
+"PartOf": ["american civil war"]
+},
+
+{
+"Term":"lawyer",
+"Description":"a professional person authorized to practice law"
+},
+
+{
+"Term":"Abraham Lincoln "
+},
+
+{
+"Term":"Second Bull Run"
+},
+
+{
+"Term":"eastern"
+},
+
+{
+"Term":"settlement"
+},
+
+{
+"Term":"advance",
+"Synonym": ["progress"]
+},
+
+{
+"Term":"last useful Southern port"
+},
+
+{
+"Term":"dbpedia"
+},
+
+{
+"Term":"fall of Atlanta"
+},
+
+{
+"Term":"established "
+},
+
+{
+"Term":"attrition of local food supplies"
+},
+
+{
+"Term":"monongahela",
+"Description":"a river that rises in northern west virginia and flows north into pennsylvania where it joins the allegheny river at pittsburgh to form the ohio river",
+"PartOf": ["west virginia"]
+},
+
+{
+"Term":"Mobile",
+"hasContext": ["versatile", "sculpture", "river", "immobile", "alabama", "perambulate", "rangy", "mobile", "ambulant"]
+},
+
+{
+"Term":"new year&apos;s day",
+"Description":"the first day of the year",
+"PartOf": ["january"]
+},
+
+{
+"Term":"hooker",
+"CapableOf": ["supply sex for money"],
+"AtLocation": ["on street", "motel", "bedroom", "street corner", "any large city"]
+},
+
+{
+"Term":"way",
+"Description":"any artifact consisting of a road or path affording passage from one place to another"
+},
+
+{
+"Term":"organisation"
+},
+
+{
+"Term":"rest "
+},
+
+{
+"Term":"in georgia"
+},
+
+{
+"Term":"Mississippi River",
+"hasContext": ["long river in unite state", "underspecified location", "natural place", "body of water"]
+},
+
+{
+"Term":"populate place"
+},
+
+{
+"Term":"end point",
+"Description":"a place where something ends or is complete"
+},
+
+{
+"Term":"Philip Sheridan "
+},
+
+{
+"Term":"penis",
+"PartOf": ["male"]
+},
+
+{
+"Term":"march",
+"DerivedFrom": ["march"]
+},
+
+{
+"Term":"fight war"
+},
+
+{
+"Term":"advance",
+"IsA": ["wax"]
+},
+
+{
+"Term":"victory "
+},
+
+{
+"Term":"advance",
+"Description":"someone who advances"
+},
+
+{
+"Term":"Mississippi",
+"hasContext": ["mississippi", "state"]
+},
+
+{
+"Term":"CausesDesire"
+},
+
+{
+"Term":"traffic",
+"Description":"buying and selling"
+},
+
+{
+"Term":"direction"
+},
+
+{
+"Term":"similar declarations"
+},
+
+{
+"Term":"capture",
+"hasContext": ["acquire", "get", "charmer", "bewitchery", "capture", "chess move"],
+"hasContext": ["catch", "represent", "change", "capture"]
+},
+
+{
+"Term":"stonewall jackson",
+"IsA": ["military personnel"],
+"InstanceOf": ["military person", "person"]
+},
+
+{
+"Term":"commander",
+"Description":"someone in an official position of authority who can command or control others",
+"IsA": ["leader"],
+"DerivedFrom": ["commandership"]
+},
+
+{
+"Term":"february",
+"IsA": ["month"]
+},
+
+{
+"Term":"fight enemy",
+"HasSubevent": ["victory"]
+},
+
+{
+"Term":"jefferson davis birthday",
+"Description":"celebrated in southern united states",
+"PartOf": ["june"]
+},
+
+{
+"Term":"deep south",
+"Description":"south carolina and georgia and alabama and mississippi and louisiana"
+},
+
+{
+"Term":"louisiana",
+"Description":"a state in southern united states on the gulf of mexico",
+"MemberOf": ["confederacy"]
+},
+
+{
+"Term":"violence",
+"AtLocation": ["war"]
+},
+
+{
+"Term":"marriage",
+"IsA": ["union"]
+},
+
+{
+"Term":"national cemetery in mississippi"
+},
+
+{
+"Term":"shermanesque",
+"EtymologicallyDerivedFrom": ["sherman"]
+},
+
+{
+"Term":"end",
+"Causes": ["end"]
+},
+
+{
+"Term":"captured"
+},
+
+{
+"Term":"seven",
+"IsA": ["number"]
+},
+
+{
+"Term":"charleston",
+"Description":"a port city in southeastern south carolina",
+"PartOf": ["south carolina"]
+},
+
+{
+"Term":"HasProperty"
+},
+
+{
+"Term":"lincoln",
+"Description":"long wooled mutton sheep originally from lincolnshire",
+"IsA": ["domestic sheep"]
+},
+
+{
+"Term":"december",
+"RelatedTo": ["dec"]
+},
+
+{
+"Term":"tank",
+"AtLocation": ["war"]
+},
+
+{
+"Term":"Georgia "
+},
+
+{
+"Term":"livestock "
+},
+
+{
+"Term":"atlantic ocean",
+"UsedFor": ["ship"],
+"UsedFor": ["ocean dump"],
+"UsedFor": ["sail on"]
+},
+
+{
+"Term":"motel"
+},
+
+{
+"Term":"close out",
+"IsA": ["end"]
+},
+
+{
+"Term":"lincoln",
+"Description":"capital of the state of nebraska",
+"PartOf": ["nebraska"]
+},
+
+{
+"Term":"string",
+"IsA": ["advance"]
+},
+
+{
+"Term":"york river",
+"Description":"ontario",
+"InstanceOf": ["place", "stream", "river"],
+"InstanceOf": ["natural place"]
+},
+
+{
+"Term":"mar"
+},
+
+{
+"Term":"phone book"
+},
+
+{
+"Term":"rangy"
+},
+
+{
+"Term":"allegheny",
+"Description":"the western part of the appalachian mountains",
+"PartOf": ["west virginia", "virginia"]
+},
+
+{
+"Term":"agistment",
+"RelatedTo": ["livestock"]
+},
+
+{
+"Term":"McLean House "
+},
+
+{
+"Term":"play tennis",
+"Causes": ["victory"]
+},
+
+{
+"Term":"Union blockade",
+"hasContext": ["military conflict", "event", "societal event"]
+},
+
+{
+"Term":"west virginia",
+"IsA": ["state"]
+},
+
+{
+"Term":"  -  -1864 to   -  -1864 "
+},
+
+{
+"Term":"monty",
+"RelatedTo": ["montgomery"]
+},
+
+{
+"Term":"  -  -1864 to   -  -1865 "
+},
+
+{
+"Term":"begin"
+},
+
+{
+"Term":"make"
+},
+
+{
+"Term":"conquer your opponent",
+"UsedFor": ["victory"]
+},
+
+{
+"Term":"Vicksburg",
+"hasContext": ["mississippi", "town", "national cemetery in mississippi", "siege", "american civil war"]
+},
+
+{
+"Term":"country music"
+},
+
+{
+"Term":"traffic",
+"hasContext": ["traffic", "communication", "street", "smuggle", "commercial activity"]
+},
+
+{
+"Term":"South Carolina",
+"hasContext": ["american state", "deep south", "state", "carolina"]
+},
+
+{
+"Term":"commander",
+"Synonym": ["leader"]
+},
+
+{
+"Term":"army unit",
+"Description":"a military unit that is part of an army"
+},
+
+{
+"Term":"lincolnesque",
+"DerivedFrom": ["lincoln"]
+},
+
+{
+"Term":"decisive victory"
+},
+
+{
+"Term":"rock music"
+},
+
+{
+"Term":"peninsula "
+},
+
+{
+"Term":"windward",
+"Description":"the side of something that is toward the wind",
+"IsA": ["side"]
+},
+
+{
+"Term":"traffic",
+"Synonym": ["smuggle"]
+},
+
+{
+"Term":"Army of Northern Virginia",
+"hasContext": ["organisation", "military unit", "troop", "organization"]
+},
+
+{
+"Term":"father their child"
+},
+
+{
+"Term":"washington",
+"IsA": ["state"]
+},
+
+{
+"Term":"two",
+"IsA": ["number"]
+},
+
+{
+"Term":"est"
+},
+
+{
+"Term":"crack up",
+"DerivedFrom": ["breakdown"]
+},
+
+{
+"Term":"peninsula"
+},
+
+{
+"Term":"may",
+"RelatedTo": ["month", "after april", "april"],
+"RelatedTo": ["after", "june"]
+},
+
+{
+"Term":"richmond",
+"Description":"capital of the state of virginia located in the east central part of the state",
+"PartOf": ["virginia"]
+},
+
+{
+"Term":"lincoln",
+"Synonym": ["lincoln car"]
+},
+
+{
+"Term":"musical artist"
+},
+
+{
+"Term":"hell"
+},
+
+{
+"Term":"decisive victory "
+},
+
+{
+"Term":"holiday"
+},
+
+{
+"Term":"withdrawer",
+"Description":"a student who withdraws from the educational institution in which he or she was enrolled"
+},
+
+{
+"Term":"industrial worker of world",
+"Description":"a former international labor union and radical labor movement in the united states",
+"IsA": ["union"]
+},
+
+{
+"Term":"perambulate"
+},
+
+{
+"Term":"general",
+"CapableOf": ["lead army", "lead troop"],
+"RelatedTo": ["army", "rank"]
+},
+
+{
+"Term":"killed"
+},
+
+{
+"Term":"IsA"
+},
+
+{
+"Term":"grant",
+"Description":"18th president of the united states",
+"InstanceOf": ["general"]
+},
+
+{
+"Term":"ReceivesAction"
+},
+
+{
+"Term":"rugby",
+"Description":"a form of football played with an oval ball"
+},
+
+{
+"Term":"Union forces"
+},
+
+{
+"Term":"heifer",
+"AtLocation": ["texas"]
+},
+
+{
+"Term":"petersburg",
+"Description":"the final campaign of the american civil war",
+"HasContext": ["virginia"],
+"PartOf": ["american civil war"],
+"InstanceOf": ["siege"]
+},
+
+{
+"Term":"something you find downtown",
+"IsA": ["traffic"]
+},
+
+{
+"Term":"maryland",
+"Description":"a mid atlantic state",
+"PartOf": ["mid atlantic state", "south"]
+},
+
+{
+"Term":"commercial activity"
+},
+
+{
+"Term":"tupelo",
+"Description":"a town in northeast mississippi",
+"PartOf": ["mississippi"]
+},
+
+{
+"Term":"commandership",
+"Description":"the position or office of commander"
+},
+
+{
+"Term":"eight",
+"IsA": ["number"],
+"RelatedTo": ["number"]
+},
+
+{
+"Term":"borough"
+},
+
+{
+"Term":"presidential election",
+"hasContext": ["change society", "hold every four year", "hold to elect president"]
+},
+
+{
+"Term":"port of entry",
+"Description":"a port in the united states where customs officials are stationed to oversee the entry and exit of people and merchandise"
+},
+
+{
+"Term":"secessionist",
+"RelatedTo": ["secession"]
+},
+
+{
+"Term":"potomac river",
+"IsA": ["underspecified location", "river"],
+"InstanceOf": ["body of water"]
+},
+
+{
+"Term":"fault",
+"Description":"equipment failure attributable to some defect in a circuit",
+"IsA": ["breakdown"]
+},
+
+{
+"Term":"cannonade",
+"RelatedTo": ["artillery"]
+},
+
+{
+"Term":"union",
+"Description":"the state of being joined or united or linked"
+},
+
+{
+"Term":"lead army"
+},
+
+{
+"Term":"devised"
+},
+
+{
+"Term":"end "
+},
+
+{
+"Term":"mountain peak",
+"Description":"the summit of a mountain"
+},
+
+{
+"Term":"alabama",
+"Description":"a member of the muskhogean people formerly living in what is now the state of alabama",
+"IsA": ["muskhogean"]
+},
+
+{
+"Term":"relax"
+},
+
+{
+"Term":"president",
+"CapableOf": ["lead country", "govern nation"],
+"CapableOf": ["sign bill"],
+"CapableOf": ["govern country"],
+"CapableOf": ["lead nation"],
+"CapableOf": ["head company"]
+},
+
+{
+"Term":"retreat",
+"Description":"a place of privacy",
+"IsA": ["area"]
+},
+
+{
+"Term":"upper cedar point light",
+"AtLocation": ["potomac river"]
+},
+
+{
+"Term":"populate area"
+},
+
+{
+"Term":"austin",
+"PartOf": ["texas"]
+},
+
+{
+"Term":"advance",
+"hasContext": ["advance", "progress", "advance", "advance", "modernity", "set", "advance", "wax"]
+},
+
+{
+"Term":"plan",
+"hasContext": ["logic", "you know how to reach your goal", "achieve goal"]
+},
+
+{
+"Term":"leaf spring",
+"Description":"long narrow spring consisting of several layers of metal springs bracketed together",
+"IsA": ["spring"]
+},
+
+{
+"Term":"military person"
+},
+
+{
+"Term":"retreat",
+"Description":"a signal to begin a withdrawal from a dangerous position",
+"IsA": ["signal"]
+},
+
+{
+"Term":"high water mark "
+},
+
+{
+"Term":"Petersburg "
+},
+
+{
+"Term":"island",
+"AtLocation": ["mississippi river"]
+},
+
+{
+"Term":"Southern ports "
+},
+
+{
+"Term":"university of nebraska",
+"Description":"a university in lincoln nebraska",
+"PartOf": ["lincoln"]
+},
+
+{
+"Term":"monty"
+},
+
+{
+"Term":"Washington "
+},
+
+{
+"Term":"progressive",
+"SimilarTo": ["advance"]
+},
+
+{
+"Term":"river",
+"IsA": ["watercourse"],
+"RelatedTo": ["mississippi"]
+},
+
+{
+"Term":"Benjamin Butler "
+},
+
+{
+"Term":"Richmond",
+"hasContext": ["state capital", "populate area", "virginia", "capital", "borough", "california"]
+},
+
+{
+"Term":"social organization",
+"hasContext": ["social organization", "system", "society"]
+},
+
+{
+"Term":"village of Appomattox Court House "
+},
+
+{
+"Term":"Confederacy "
+},
+
+{
+"Term":"something",
+"AtLocation": ["east", "sea", "end"]
+},
+
+{
+"Term":"lincoln",
+"Description":"16th president of the united states",
+"InstanceOf": ["president of unite state", "lawyer"]
+},
+
+{
+"Term":"wounded"
+},
+
+{
+"Term":"california"
+},
+
+{
+"Term":"nashville sound",
+"DerivedFrom": ["nashville"]
+},
+
+{
+"Term":"MemberOf"
+},
+
+{
+"Term":"war",
+"hasContext": ["hell", "opposite of peace"]
+},
+
+{
+"Term":"Generals George Meade "
+},
+
+{
+"Term":"army of northern virginia",
+"IsA": ["troop", "organization"],
+"InstanceOf": ["organisation", "military unit"]
+},
+
+{
+"Term":"  -  -1862 to   -  -1862 "
+},
+
+{
+"Term":"new orleans",
+"Description":"a port and largest city in louisiana",
+"PartOf": ["louisiana"],
+"InstanceOf": ["port of entry"]
+},
+
+{
+"Term":"march",
+"Causes": ["march"]
+},
+
+{
+"Term":"United States military history"
+},
+
+{
+"Term":"mean of transportation"
+},
+
+{
+"Term":"single day",
+"hasContext": ["holiday", "international"]
+},
+
+{
+"Term":"long river in unite state"
+},
+
+{
+"Term":"Nashville "
+},
+
+{
+"Term":"social organization "
+},
+
+{
+"Term":"primrose path",
+"Description":"a life of ease and pleasure",
+"IsA": ["way"]
+},
+
+{
+"Term":"fifth month of year"
+},
+
+{
+"Term":"beckley",
+"Description":"a city in southern west virginia",
+"PartOf": ["west virginia"]
+},
+
+{
+"Term":"cape cod",
+"Description":"a massachusetts peninsula to the south of boston extending into the atlantic",
+"InstanceOf": ["peninsula"]
+},
+
+{
+"Term":"capture of Vicksburg "
+},
+
+{
+"Term":"decatur",
+"Description":"a town in northern alabama on the tennessee river",
+"PartOf": ["alabama"]
+},
+
+{
+"Term":"states"
+},
+
+{
+"Term":"offensive operations"
+},
+
+{
+"Term":"tennessee",
+"Description":"a state in east central united states",
+"PartOf": ["south"]
+},
+
+{
+"Term":"musical work"
+},
+
+{
+"Term":"lee",
+"Description":"leader of the american revolution who proposed the resolution calling for independence of the american colonies",
+"InstanceOf": ["american revolutionary leader"]
+},
+
+{
+"Term":"brake failure",
+"Description":"brakes fail to stop a vehicle",
+"IsA": ["breakdown"]
+},
+
+{
+"Term":"next day",
+"Description":"song",
+"InstanceOf": ["single"]
+},
+
+{
+"Term":"social organization"
+},
+
+{
+"Term":"dbpedia"
+},
+
+{
+"Term":"johnston"
+},
+
+{
+"Term":"Atlanta",
+"hasContext": ["state capital", "city", "georgia", "siege", "american civil war", "in georgia"]
+},
+
+{
+"Term":"asia",
+"Description":"the nations of the asian continent collectively"
+},
+
+{
+"Term":"Confederates "
+},
+
+{
+"Term":"coordinated strategy"
+},
+
+{
+"Term":"Union victory"
+},
+
+{
+"Term":"battery",
+"Description":"group of guns or missile launchers operated together at one place",
+"IsA": ["artillery"]
+},
+
+{
+"Term":"DefinedAs"
+},
+
+{
+"Term":"mobile"
+},
+
+{
+"Term":"General",
+"hasContext": ["military", "lead troop", "rank", "general", "generalship", "lead army", "army"]
+},
+
+{
+"Term":"DerivedFrom"
+},
+
+{
+"Term":"secession",
+"Description":"the withdrawal of eleven southern states from the union in 1860 which precipitated the american civil war",
+"InstanceOf": ["separation"]
+},
+
+{
+"Term":"march",
+"RelatedTo": ["february", "month"]
+},
+
+{
+"Term":"shell",
+"RelatedTo": ["artillery"]
+},
+
+{
+"Term":"military personnel"
+},
+
+{
+"Term":"Antonym"
+},
+
+{
+"Term":"athlete",
+"IsA": ["person"]
+},
+
+{
+"Term":"Sherman "
+},
+
+{
+"Term":"United States "
+},
+
+{
+"Term":"bloomsbury group",
+"Description":"an inner circle of writers and artists and philosophers who lived in or around bloomsbury early in the 20th century and were noted for their unconventional lifestyles"
+},
+
+{
+"Term":"HasA"
+},
+
+{
+"Term":"jackson",
+"Description":"a town in western tennessee",
+"PartOf": ["tennessee"]
+},
+
+{
+"Term":"presidential election "
+},
+
+{
+"Term":"first invasion "
+},
+
+{
+"Term":"selma",
+"Description":"a town in central alabama on the alabama river",
+"PartOf": ["alabama"]
+},
+
+{
+"Term":"central Tennessee "
+},
+
+{
+"Term":"washington",
+"Description":"the capital of the united states in the district of columbia and a tourist mecca"
+},
+
+{
+"Term":"potomac",
+"Description":"a river in the east central united states",
+"PartOf": ["west virginia"]
+},
+
+{
+"Term":"cease",
+"Description":"end",
+"IsA": ["end"]
+},
+
+{
+"Term":"maj"
+},
+
+{
+"Term":"benjamin butler",
+"Description":"artist",
+"InstanceOf": ["person"]
+},
+
+{
+"Term":"followed "
+},
+
+{
+"Term":"sea",
+"IsA": ["large body of salt water"],
+"RelatedTo": ["water"]
+},
+
+{
+"Term":"famous for jazz"
+},
+
+{
+"Term":"East",
+"hasContext": ["geographical area", "asia", "eastern", "east", "eastern", "direction"]
+},
+
+{
+"Term":"east",
+"Description":"the countries of asia",
+"Attribute": ["eastern"]
+},
+
+{
+"Term":"washington",
+"Description":"1st president of the united states",
+"InstanceOf": ["general"]
+},
+
+{
+"Term":"direction",
+"Description":"the spatial relation between something and the course along which it points or moves"
+},
+
+{
+"Term":"Pickett Charge "
+},
+
+{
+"Term":"n",
+"RelatedTo": ["north"]
+},
+
+{
+"Term":"misfire",
+"Description":"an explosion that fails to occur",
+"IsA": ["breakdown"]
+},
+
+{
+"Term":"east tennessee",
+"RelatedTo": ["tennessee"]
+},
+
+{
+"Term":"love",
+"InstanceOf": ["person"]
+},
+
+{
+"Term":"Army of Northern Virginia "
+},
+
+{
+"Term":"HasSubevent"
+},
+
+{
+"Term":"access",
+"Description":"a way of entering or leaving",
+"IsA": ["way"]
+},
+
+{
+"Term":"west virginia",
+"Description":"a state in east central united states",
+"InstanceOf": ["american state"]
+},
+
+{
+"Term":"mobile",
+"Description":"a river in southwestern alabama",
+"PartOf": ["alabama"]
+},
+
+{
+"Term":"camp david",
+"Description":"a retreat to the northwest of washington that is used by the president of the united states",
+"InstanceOf": ["retreat"]
+},
+
+{
+"Term":"blockade "
+},
+
+{
+"Term":"single day "
+},
+
+{
+"Term":"philip sheridan",
+"IsA": ["military personnel"],
+"InstanceOf": ["military person", "person"]
+},
+
+{
+"Term":"Causes"
+},
+
+{
+"Term":"Battle of Antietam",
+"hasContext": ["military conflict", "event", "societal event"]
+},
+
+{
+"Term":"  -  -1861 to   -  -1865 "
+},
+
+{
+"Term":"eastern"
+},
+
+{
+"Term":"ordered "
+},
+
+{
+"Term":"mobile",
+"Description":"sculpture suspended in midair whose delicately balanced parts can be set in motion by air currents",
+"IsA": ["sculpture"]
+},
+
+{
+"Term":"chesapeake bay",
+"Description":"a large inlet of the north atlantic between virginia and maryland",
+"PartOf": ["maryland"]
+},
+
+{
+"Term":"artistic movement",
+"Description":"a group of artists who agree on general principles"
+},
+
+{
+"Term":"union",
+"Description":"an organization of employees formed to bargain with the employer"
+},
+
+{
+"Term":"artillery "
+},
+
+{
+"Term":"tuskegee",
+"Description":"a town in eastern alabama",
+"PartOf": ["alabama"]
+},
+
+{
+"Term":"command "
+},
+
+{
+"Term":"made",
+"hasContext": ["past", "populate place", "est", "place", "second person singular", "make", "settlement", "census designate place"]
+},
+
+{
+"Term":"spit",
+"Synonym": ["peninsula"]
+},
+
+{
+"Term":"fort capitulation "
+},
+
+{
+"Term":"one",
+"RelatedTo": ["number"]
+},
+
+{
+"Term":"passage",
+"Description":"a way through or along which someone or something may pass",
+"IsA": ["way"]
+},
+
+{
+"Term":"clinch river",
+"Description":"a river that rises in southwestern virginia and flows generally southwestward across eastern tennessee to the tennessee river",
+"PartOf": ["virginia"]
+},
+
+{
+"Term":"march",
+"RelatedTo": ["mar"]
+},
+
+{
+"Term":"domestic sheep",
+"Description":"any of various breeds raised for wool or edible meat or skin"
+},
+
+{
+"Term":"leader",
+"Description":"a person who rules or guides or inspires others"
+},
+
+{
+"Term":"obstruct"
+},
+
+{
+"Term":"burn"
+},
+
+{
+"Term":"  -03-1861 to   -03-1861 "
+},
+
+{
+"Term":"charmer",
+"Description":"a person who charms others"
+},
+
+{
+"Term":"sword",
+"UsedFor": ["cut"]
+},
+
+{
+"Term":"  -  -1861 to   -  -1861 "
+},
+
+{
+"Term":"prevail",
+"DerivedFrom": ["victory"]
+},
+
+{
+"Term":"General Philip Sheridan "
+},
+
+{
+"Term":"General Sherman "
+},
+
+{
+"Term":"Lincoln",
+"hasContext": ["president of unite state"],
+"hasContext": ["state capital", "domestic sheep", "lawyer", "lincoln car", "nebraska"]
+},
+
+{
+"Term":"driftwood",
+"AtLocation": ["sea"]
+},
+
+{
+"Term":"go on strike",
+"HasPrerequisite": ["union"]
+},
+
+{
+"Term":"CapableOf"
+},
+
+{
+"Term":"futile frontal assaults"
+},
+
+{
+"Term":"johnson",
+"IsA": ["surname"]
+},
+
+{
+"Term":"class structure",
+"Description":"the organization of classes within a society",
+"IsA": ["social organization"]
+},
+
+{
+"Term":"Union armies "
+},
+
+{
+"Term":"fork in road"
+},
+
+{
+"Term":"colorado",
+"Description":"a state in west central united states in the rocky mountains"
+},
+
+{
+"Term":"secede",
+"DerivedFrom": ["secession"]
+},
+
+{
+"Term":"law",
+"Description":"the collection of rules imposed by authority"
+},
+
+{
+"Term":"cut",
+"RelatedTo": ["slice", "knife"]
+},
+
+{
+"Term":"midsummer day",
+"Description":"a quarter day in england wales and ireland",
+"PartOf": ["june"]
+},
+
+{
+"Term":"end",
+"hasContext": ["end point", "finish", "begin", "end", "end"]
+},
+
+{
+"Term":"General Robert E. Lee "
+},
+
+{
+"Term":"lake chelan",
+"Description":"a narrow very deep lake in central washington in the cascade range",
+"PartOf": ["washington"]
+},
+
+{
+"Term":"Generals George Crook "
+},
+
+{
+"Term":"secession"
+},
+
+{
+"Term":"traffic",
+"Synonym": ["commercial activity"]
+},
+
+{
+"Term":"nebraska",
+"Description":"a midwestern state on the great plains"
+},
+
+{
+"Term":"missouri",
+"Description":"a midwestern state in central united states",
+"MemberOf": ["confederacy"]
+},
+
+{
+"Term":"i",
+"AtLocation": ["alabama", "washington"]
+},
+
+{
+"Term":"readied",
+"hasContext": ["put in", "install", "readied", "set up"]
+},
+
+{
+"Term":"sherman",
+"Description":"american revolutionary leader and signer of the declaration of independence and the articles of confederation and the united states constitution",
+"InstanceOf": ["american revolutionary leader"]
+},
+
+{
+"Term":"blockade",
+"Description":"a war measure that isolates some area of importance to the enemy",
+"IsA": ["military action"]
+},
+
+{
+"Term":"january",
+"Description":"the first month of the year",
+"IsA": ["gregorian calendar month"]
+},
+
+{
+"Term":"capital city of alabama",
+"IsA": ["montgomery"]
+},
+
+{
+"Term":"someone",
+"AtLocation": ["sea", "way"]
+},
+
+{
+"Term":"town",
+"Description":"an urban area with a fixed boundary that is smaller than a city"
+},
+
+{
+"Term":"northern"
+},
+
+{
+"Term":"petersburg",
+"Description":"amtrak station",
+"IsA": ["build"]
+},
+
+{
+"Term":"capture",
+"Description":"the act of taking of a person by force"
+},
+
+{
+"Term":"strong than woman"
+},
+
+{
+"Term":"modernity",
+"Description":"the quality of being current or of the present"
+},
+
+{
+"Term":"head",
+"Description":"the pressure exerted by a fluid",
+"IsA": ["pressure"]
+},
+
+{
+"Term":"see",
+"UsedFor": ["cut"]
+},
+
+{
+"Term":"Grant "
+},
+
+{
+"Term":"strong urging of President Lincoln "
+},
+
+{
+"Term":"arkansas",
+"Description":"a state in south central united states",
+"MemberOf": ["confederacy"]
+},
+
+{
+"Term":"astonishing losses "
+},
+
+{
+"Term":"petersburg",
+"RelatedTo": ["leningrad", "campaign"]
+},
+
+{
+"Term":"entire Confederacy"
+},
+
+{
+"Term":"stocker",
+"Description":"a domestic animal kept as stock until fattened or matured and suitable for a breeding establishment"
+},
+
+{
+"Term":"industrial union",
+"Description":"a labor union that admits all workers in a given industry irrespective of their craft",
+"IsA": ["union"]
+},
+
+{
+"Term":"blackmail",
+"DerivedFrom": ["pressure"]
+},
+
+{
+"Term":"Battle of Antietam "
+},
+
+{
+"Term":"end",
+"Description":"the point in time at which something ends"
+},
+
+{
+"Term":"General Sherman"
+},
+
+{
+"Term":"EtymologicallyDerivedFrom"
+},
+
+{
+"Term":"Confederate government"
+},
+
+{
+"Term":"Georgia",
+"hasContext": ["deep south", "state"]
+},
+
+{
+"Term":"Battle of Chancellorsville",
+"hasContext": ["military conflict", "event", "societal event"]
+},
+
+{
+"Term":"war "
+},
+
+{
+"Term":"reached "
+},
+
+{
+"Term":"triggered"
+},
+
+{
+"Term":"advance",
+"DerivedFrom": ["modernity"]
+},
+
+{
+"Term":"breakaway",
+"Description":"the act of breaking away or withdrawing from",
+"IsA": ["secession"]
+},
+
+{
+"Term":"smuggle"
+},
+
+{
+"Term":"lincoln memorial",
+"Description":"memorial building in washington containing a large marble statue of abraham lincoln",
+"PartOf": ["washington"]
+},
+
+{
+"Term":"MotivatedByGoal"
+},
+
+{
+"Term":"second person singular"
+},
+
+{
+"Term":"Maryland",
+"hasContext": ["mid atlantic state", "american state", "state", "south"]
+},
+
+{
+"Term":"Valley Campaigns"
+},
+
+{
+"Term":"after april"
+},
+
+{
+"Term":"Mississippi River "
+},
+
+{
+"Term":"orders "
+},
+
+{
+"Term":"olympia",
+"Description":"capital of the state of washington",
+"PartOf": ["washington"]
+},
+
+{
+"Term":"South Carolina "
+},
+
+{
+"Term":"bedroom"
+},
+
+{
+"Term":"swim in"
+},
+
+{
+"Term":"rest",
+"HasPrerequisite": ["sleep"],
+"HasPrerequisite": ["relax"],
+"HasPrerequisite": ["lie down"]
+},
+
+{
+"Term":"hooker",
+"Description":"united states general in the union army who was defeated at chancellorsville by robert e lee",
+"InstanceOf": ["general"]
+},
+
+{
+"Term":"forced"
+},
+
+{
+"Term":"sold "
+},
+
+{
+"Term":"defeat",
+"DerivedFrom": ["defeat"]
+},
+
+{
+"Term":"saucepan",
+"AtLocation": ["georgia"]
+},
+
+{
+"Term":"moustache"
+},
+
+{
+"Term":"replaced"
+},
+
+{
+"Term":"separation",
+"Description":"the act of dividing or disconnecting"
+},
+
+{
+"Term":"opening route "
+},
+
+{
+"Term":"Peninsula Campaign "
+},
+
+{
+"Term":"strong urging of President Lincoln"
+},
+
+{
+"Term":"U.S. "
+},
+
+{
+"Term":"freed slaves "
+},
+
+{
+"Term":"Union control"
+},
+
+{
+"Term":"pressure "
+},
+
+{
+"Term":"coerce",
+"DerivedFrom": ["pressure"]
+},
+
+{
+"Term":"age gracefully"
+},
+
+{
+"Term":"general lee",
+"Description":"car",
+"InstanceOf": ["mean of transportation", "automobile"]
+},
+
+{
+"Term":"north",
+"IsA": ["direction"],
+"RelatedTo": ["direction"]
+},
+
+{
+"Term":"nashville",
+"Description":"capital of the state of tennessee",
+"PartOf": ["tennessee"]
+},
+
+{
+"Term":"sherman",
+"Description":"united states general who was commander of all union troops in the west",
+"InstanceOf": ["general"]
+},
+
+{
+"Term":"atlanta",
+"IsA": ["city", "in georgia"]
+},
+
+{
+"Term":"surname"
+},
+
+{
+"Term":"fort meade",
+"Description":"a united states army base in maryland",
+"PartOf": ["maryland"]
+},
+
+{
+"Term":"New Orleans",
+"hasContext": ["city", "louisiana", "port of entry", "famous for jazz", "city"]
+},
+
+{
+"Term":"sherman",
+"Description":"village",
+"IsA": ["village"]
+},
+
+{
+"Term":"march",
+"Description":"the month following february and preceding april",
+"IsA": ["gregorian calendar month"]
+},
+
+{
+"Term":"secession",
+"Description":"formal separation from an alliance or federation",
+"IsA": ["separation"]
+},
+
+{
+"Term":"catch",
+"Description":"a person regarded as a good matrimonial prospect"
+},
+
+{
+"Term":"Generals George Meade"
+},
+
+{
+"Term":"James River"
+},
+
+{
+"Term":"politician"
+},
+
+{
+"Term":"York River",
+"hasContext": ["natural place", "place", "watercourse"]
+},
+
+{
+"Term":"breakdown",
+"hasContext": ["breakdown", "breakdown", "collapse"]
+},
+
+{
+"Term":"Southern states "
+},
+
+{
+"Term":"hasContext"
+},
+
+{
+"Term":"plantation",
+"AtLocation": ["georgia"]
+},
+
+{
+"Term":"scissor",
+"UsedFor": ["cut"]
+},
+
+{
+"Term":"multiple directions "
+},
+
+{
+"Term":"versatile"
+},
+
+{
+"Term":"entire Confederacy "
+},
+
+{
+"Term":"south",
+"Description":"the region of the united states lying to the south of the mason dixon line"
+},
+
+{
+"Term":"south",
+"IsA": ["direction"]
+},
+
+{
+"Term":"railroad supply lines "
+},
+
+{
+"Term":"Days Battles"
+},
+
+{
+"Term":"richmond",
+"Description":"nova scotia provincial electoral district",
+"IsA": ["populate area"]
+},
+
+{
+"Term":"AmCivWar",
+"hasContext": ["water", "port of entry", "south"],
+"hasContext": ["event"],
+"hasContext": ["separation"],
+"hasContext": ["military person", "organization"],
+"hasContext": ["celebrate"],
+"hasContext": ["watercourse"],
+"hasContext": ["peninsula"],
+"hasContext": ["south", "film"],
+"hasContext": ["achieve goal"],
+"hasContext": ["mississippi", "add up"],
+"hasContext": ["union"],
+"hasContext": ["general", "alabama", "hold to elect president", "battery", "begin"],
+"hasContext": ["musical work"],
+"hasContext": ["ship", "month"],
+"hasContext": ["may", "stripper", "red"],
+"hasContext": ["male", "mid atlantic state", "state"],
+"hasContext": ["military conflict"],
+"hasContext": ["traffic"],
+"hasContext": ["person", "government"],
+"hasContext": ["set up"],
+"hasContext": ["way", "live in barn", "est"],
+"hasContext": ["hell"],
+"hasContext": ["june"],
+"hasContext": ["president of unite state", "artwork", "pressure"],
+"hasContext": ["american revolutionary leader"],
+"hasContext": ["relax"],
+"hasContext": ["direction", "garrison"],
+"hasContext": ["tennessee"],
+"hasContext": ["victory", "mean of transportation", "georgia"],
+"hasContext": ["american civil war"],
+"hasContext": ["advance", "eastern", "slice"],
+"hasContext": ["holiday", "american state"],
+"hasContext": ["spring"],
+"hasContext": ["society"],
+"hasContext": ["place"],
+"hasContext": ["breakdown", "body of water", "gregorian calendar month", "fight war", "chess move", "commandership", "maj"],
+"hasContext": ["military"],
+"hasContext": ["virginia"]
+},
+
+{
+"Term":"wheel",
+"Description":"a city in the northern panhandle of west virginia on the ohio river",
+"PartOf": ["west virginia"]
+},
+
+{
+"Term":"gas pressure",
+"Description":"the pressure exerted by a gas",
+"IsA": ["pressure"]
+},
+
+{
+"Term":"capital",
+"RelatedTo": ["washington"]
+},
+
+{
+"Term":"capture",
+"DerivedFrom": ["bewitchery", "catch", "charmer"]
+},
+
+{
+"Term":"unite state of america",
+"IsA": ["state"]
+},
+
+{
+"Term":"1",
+"IsA": ["number"]
+},
+
+{
+"Term":"abort",
+"IsA": ["end"]
+},
+
+{
+"Term":"fancy woman"
+},
+
+{
+"Term":"relief of Rosecrans"
+},
+
+{
+"Term":"december",
+"Description":"the last month of the year"
+},
+
+{
+"Term":"jellyfish",
+"AtLocation": ["atlantic ocean"]
+},
+
+{
+"Term":"complex situation",
+"CausesDesire": ["plan"]
+},
+
+{
+"Term":"troops "
+},
+
+{
+"Term":"spring",
+"Description":"a metal elastic device that returns to its shape or position when pushed or pulled or pressed"
+},
+
+{
+"Term":"stripper",
+"Description":"a performer who provides erotic entertainment by undressing to music"
+},
+
+{
+"Term":"defeat",
+"RelatedTo": ["lose", "loss"],
+"Antonym": ["victory"]
+},
+
+{
+"Term":"john",
+"RelatedTo": ["johnston"]
+},
+
+{
+"Term":"martin luther king jr&apos;s birthday",
+"Description":"observed on the monday closest to january 15",
+"PartOf": ["january"]
+},
+
+{
+"Term":"faubourg",
+"Description":"a new orleans district lying outside the original city limits",
+"PartOf": ["new orleans"]
+},
+
+{
+"Term":"coordinated strategy "
+},
+
+{
+"Term":"controlled "
+},
+
+{
+"Term":"valley",
+"Description":"a long depression in the surface of the land that usually contains a river"
+},
+
+{
+"Term":"advance "
+},
+
+{
+"Term":"atlanta",
+"Description":"state capital and largest city of georgia",
+"PartOf": ["georgia"]
+},
+
+{
+"Term":"patriarchy",
+"Description":"a form of social organization in which a male is the family head and title is traced through the male line",
+"IsA": ["social organization"]
+},
+
+{
+"Term":"segregation",
+"Description":"a social system that provides separate facilities for minority groups",
+"IsA": ["social organization"]
+},
+
+{
+"Term":"shenandoah valley"
+},
+
+{
+"Term":"stock",
+"Description":"the handle of a handgun or the butt end of a rifle or shotgun or part of the support of a machine gun or artillery gun",
+"PartOf": ["artillery"]
+},
+
+{
+"Term":"epiphany",
+"Description":"twelve days after christmas",
+"PartOf": ["january"]
+},
+
+{
+"Term":"forced "
+},
+
+{
+"Term":"regular international shipments"
+},
+
+{
+"Term":"spring",
+"IsA": ["grow"]
+},
+
+{
+"Term":"beaumont",
+"Description":"a city of southeastern texas near houston",
+"PartOf": ["texas"]
+},
+
+{
+"Term":"distance",
+"Description":"the property created by the space between two objects or points"
+},
+
+{
+"Term":"May",
+"hasContext": ["month", "after april", "may", "fifth month of year", "after", "may"]
+},
+
+{
+"Term":"recalled"
+},
+
+{
+"Term":"twelfth month of year"
+},
+
+{
+"Term":"cowpens",
+"Description":"battle in the american revolution",
+"HasContext": ["south carolina"]
+},
+
+{
+"Term":"retreat",
+"Description":"withdrawal of troops to a more favorable position to escape the enemy&apos;s superior forces or after a defeat",
+"IsA": ["withdrawal"]
+},
+
+{
+"Term":"social organisation",
+"Synonym": ["social organization"]
+},
+
+{
+"Term":"vicksburg",
+"IsA": ["national cemetery in mississippi"]
+},
+
+{
+"Term":"event"
+},
+
+{
+"Term":"president of unite state"
+},
+
+{
+"Term":"society",
+"Description":"an extended social group having a distinctive cultural and economic organization"
+},
+
+{
+"Term":"nashville",
+"RelatedTo": ["north carolina", "illinois", "georgia"]
+},
+
+{
+"Term":"advance",
+"IsA": ["set"]
+},
+
+{
+"Term":"chin"
+},
+
+{
+"Term":"16th president of unite state"
+},
+
+{
+"Term":"halted"
+},
+
+{
+"Term":"past"
+},
+
+{
+"Term":"Confederate States of America"
+},
+
+{
+"Term":"victory",
+"hasContext": ["victory", "celebrate"]
+},
+
+{
+"Term":"P. G. T. Beauregard "
+},
+
+{
+"Term":"Montgomery",
+"hasContext": ["general", "city", "alabama", "populate area", "writer", "state capital", "monty"]
+},
+
+{
+"Term":"defeat",
+"Description":"an unsuccessful ending to a struggle or contest"
+},
+
+{
+"Term":"port",
+"Description":"a place where people and merchandise can enter or leave a country"
+},
+
+{
+"Term":"Hooker "
+},
+
+{
+"Term":"grantor",
+"RelatedTo": ["grant"]
+},
+
+{
+"Term":"install",
+"Synonym": ["readied"]
+},
+
+{
+"Term":"straight and narrow",
+"Description":"the way of proper and honest behavior",
+"IsA": ["way"]
+},
+
+{
+"Term":"english"
+},
+
+{
+"Term":"grant money"
+},
+
+{
+"Term":"men",
+"CapableOf": ["wear hat"],
+"HasA": ["penis"],
+"IsA": ["strong than woman"],
+"CapableOf": ["fancy woman", "father their child", "smoke cigar", "age gracefully"]
+},
+
+{
+"Term":"plan "
+},
+
+{
+"Term":"wax"
+},
+
+{
+"Term":"Battle of Fredericksburg",
+"hasContext": ["military conflict", "event", "societal event"]
+},
+
+{
+"Term":"sign bill"
+},
+
+{
+"Term":"general lee",
+"IsA": ["car", "self power vehicle"]
+},
+
+{
+"Term":"North "
+},
+
+{
+"Term":"baltimore",
+"Description":"the largest city in maryland",
+"PartOf": ["maryland"]
+},
+
+{
+"Term":"census designate place"
+},
+
+{
+"Term":"withdrawal",
+"Synonym": ["secession"]
+},
+
+{
+"Term":"station"
+},
+
+{
+"Term":"city",
+"Description":"a large and densely populated urban area"
+},
+
+{
+"Term":"mid may",
+"Description":"the middle part of may",
+"PartOf": ["may"]
+},
+
+{
+"Term":"key stronghold"
+},
+
+{
+"Term":"allowed Union forces"
+},
+
+{
+"Term":"Union armies"
+},
+
+{
+"Term":"april",
+"IsA": ["month"]
+},
+
+{
+"Term":"finish"
+},
+
+{
+"Term":"Synonym"
+},
+
+{
+"Term":"sign "
+}
