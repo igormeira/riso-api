@@ -113,3 +113,20 @@ def logout():
 @app.route('/api')
 def api():
 	return "Api do projeto RISO."
+
+@app.route('/api/<termo>/contextos')
+def contextos():
+	return "Api do projeto RISO."
+
+@app.route('/api/<conceito>/rel')
+def relacoes():
+	return "Api do projeto RISO."
+
+@app.route('/api/docs')
+@app.route('/api/<conceito>/docs')
+def documento():
+	return "Api do projeto RISO."
+
+@app.route('/api/<conceito>/desc')
+def descricao():
+	return "Api do projeto RISO."
