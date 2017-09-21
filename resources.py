@@ -10,16 +10,13 @@ from flask_jwt_extended import JWTManager, jwt_required, \
 
 import simplekv.memory
 import datetime
-import api_mandacaru
 import StringIO
 import csv
 import sys, os
-sys.path.append('../sab-api/script')
-sys.path.append('../sab-api/authentication')
-sys.path.append('../sab-api/predict')
+sys.path.append('../riso-api/db-scripts')
+sys.path.append('../riso-api/authentication')
 
-import aux_collection_insert
-import predict
+import aux_actions_db
 from hasher import digest, hash_all
 from authorize import Authorize
 
@@ -115,8 +112,11 @@ def api():
 	return "Api do projeto RISO."
 
 @app.route('/api/<termo>/contextos')
-def contextos():
-	return "Api do projeto RISO."
+def contextos(termo):
+    query = ("SELECT id, contexto FROM tb_conceito WHERE termo=\'"+str(termo)+"\'")
+    response = json.dumps(aux_actions_db.consulta_BD(query))
+    response = make_response(response)
+    return response
 
 @app.route('/api/<conceito>/rel')
 def relacoes():
