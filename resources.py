@@ -111,6 +111,20 @@ def logout():
 def api():
 	return "Api do projeto RISO."
 
+@app.route('/api/info')
+@app.route('/api/<conceitoId>/info')
+def info(conceitoId = None):
+    if conceitoId in None:
+        query = ("SELECT id, termo, descrecao, contexto FROM tb_conceito")
+        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = make_response(response)
+        return response
+    else:
+        query = ("SELECT id, termo, descrecao, contexto FROM tb_conceito WHERE id=\'"+str(conceitoId)+"\'")
+        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = make_response(response)
+        return response
+
 @app.route('/api/<termo>/contextos')
 def contextos(termo = None):
     query = ("SELECT id, contexto FROM tb_conceito WHERE termo=\'"+str(termo)+"\'")
@@ -146,6 +160,9 @@ def documento(conceitoId = None):
         response = make_response(response)
         return response
 
-@app.route('/api/<conceito>/desc')
-def descricao():
-	return "Api do projeto RISO."
+@app.route('/api/<conceitoId>/desc')
+def descricao(conceitoId = None ):
+    query = ("SELECT descricao FROM tb_conceito WHERE id=\'"+str(conceitoId)+"\'")
+    response = json.dumps(aux_actions_db.consulta_BD(query))
+    response = make_response(response)
+    return response
