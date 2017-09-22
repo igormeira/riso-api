@@ -29,7 +29,7 @@ app.config['JWT_ACCESS_TOKEN_EXPIRES'] = datetime.timedelta(minutes=5)
 
 jwt = JWTManager(app)
 
-auth = Authorize("INSA")
+auth = Authorize("RISO")
 completion = False
 
 #CORS headers
@@ -112,20 +112,39 @@ def api():
 	return "Api do projeto RISO."
 
 @app.route('/api/<termo>/contextos')
-def contextos(termo):
+def contextos(termo = None):
     query = ("SELECT id, contexto FROM tb_conceito WHERE termo=\'"+str(termo)+"\'")
     response = json.dumps(aux_actions_db.consulta_BD(query))
     response = make_response(response)
     return response
 
-@app.route('/api/<conceito>/rel')
-def relacoes():
-	return "Api do projeto RISO."
+@app.route('/api/rel')
+@app.route('/api/<conceitoId>/rel')
+def relacoes(conceitoId = None):
+    if conceitoId is None:
+        query = ("SELECT id_conceito_principal, relacao, id_conceito_secundario FROM tb_relacao_semantica")
+        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = make_response(response)
+        return response
+    else:
+        query = ("SELECT id_conceito_secundario, relacao FROM tb_relacao_semantica WHERE id_conceito_principal=\'"+str(conceitoId)+"\'")
+        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = make_response(response)
+        return response
 
 @app.route('/api/docs')
-@app.route('/api/<conceito>/docs')
-def documento():
-	return "Api do projeto RISO."
+@app.route('/api/<conceitoId>/docs')
+def documento(conceitoId = None):
+    if conceitoId is None:
+        query = ("SELECT id, nome, contexto, arquivo FROM tb_documento")
+        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = make_response(response)
+        return response
+    else:
+        query = ("SELECT doc.id, doc.nome, doc.contexto, doc.arquivo FROM tb_documento doc WHERE doc.id=(SELECT cd.id_documento FROM tb_conceito_docuento cd WHERE cd.id_conceito=\'"+str(conceitoId)+"\')")
+        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = make_response(response)
+        return response
 
 @app.route('/api/<conceito>/desc')
 def descricao():
