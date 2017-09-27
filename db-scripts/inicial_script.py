@@ -41,7 +41,7 @@ def getTermId(term):
 
 
 def getDocumentId(document):
-	query = """SELECT id FROM tb_documento WHERE nome="""+str(document)
+	query = """SELECT id FROM tb_documento WHERE nome='"""+str(document)+"""';"""
 	termId = aux_actions_db.consulta_BD(query)
 	return termId
 
@@ -65,7 +65,6 @@ def insertConcept(term, desc, ctxt):
 def insertRelation(term, dictRel):
 	for key in dictRel:
 		itens = dictRel[key]
-		print dictRel
 		itens = itens.split(", ")
 		for item in itens:
 			limit = len(item) - 1
@@ -75,7 +74,7 @@ def insertRelation(term, dictRel):
 										','"""+str(getTermId(item)[0][0])+"""','"""+str(key)+"""');""")
 
 def insertConceptDoc(conceptId):
-	docId = getDocumentId(file)
+	docId = getDocumentId(file)[0][0]
 	aux_actions_db.update_BD("""INSERT INTO tb_conceito_documento (id_conceito,id_documento)
 								VALUES ('"""+str(conceptId)+"""','"""+str(docId)+"""');""")
 
@@ -95,6 +94,7 @@ def concepts(data_file):
 		else:
 			if term != "":
 				insertConcept(term, desc, ctxt)
+				insertConceptDoc(getTermId(term)[0][0])
 				term = ""
 				ctxt = "thing"
 				desc = None
