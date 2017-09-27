@@ -114,8 +114,8 @@ def api():
 @app.route('/api/info')
 @app.route('/api/<conceitoId>/info')
 def info(conceitoId = None):
-    if conceitoId in None:
-        query = ("SELECT id, termo, descrecao, contexto FROM tb_conceito")
+    if conceitoId is None:
+        query = ("SELECT id, termo, descricao, contexto FROM tb_conceito")
         response = json.dumps(aux_actions_db.consulta_BD(query))
         response = make_response(response)
         return response
