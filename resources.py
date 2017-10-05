@@ -17,6 +17,7 @@ sys.path.append('../riso-api/db-scripts')
 sys.path.append('../riso-api/authentication')
 
 import aux_actions_db
+import api_riso
 from hasher import digest, hash_all
 from authorize import Authorize
 
@@ -115,20 +116,17 @@ def api():
 @app.route('/api/<conceitoId>/info')
 def info(conceitoId = None):
     if conceitoId is None:
-        query = ("SELECT id, termo, descricao, contexto FROM tb_conceito")
-        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = json.dumps(api_riso.conceitosInfo(conceitoId))
         response = make_response(response)
         return response
     else:
-        query = ("SELECT id, termo, descrecao, contexto FROM tb_conceito WHERE id=\'"+str(conceitoId)+"\'")
-        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = json.dumps(api_riso.conceitosInfo(conceitoId))
         response = make_response(response)
         return response
 
 @app.route('/api/<termo>/contextos')
 def contextos(termo = None):
-    query = ("SELECT id, contexto FROM tb_conceito WHERE termo=\'"+str(termo)+"\'")
-    response = json.dumps(aux_actions_db.consulta_BD(query))
+    response = json.dumps(api_riso.contextos(termo))
     response = make_response(response)
     return response
 
@@ -136,33 +134,28 @@ def contextos(termo = None):
 @app.route('/api/<conceitoId>/rel')
 def relacoes(conceitoId = None):
     if conceitoId is None:
-        query = ("SELECT id_conceito_principal, relacao, id_conceito_secundario FROM tb_relacao_semantica")
-        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = json.dumps(api_riso.conceitosRel(conceitoId))
         response = make_response(response)
         return response
     else:
-        query = ("SELECT id_conceito_secundario, relacao FROM tb_relacao_semantica WHERE id_conceito_principal=\'"+str(conceitoId)+"\'")
-        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = json.dumps(api_riso.conceitosRel(conceitoId))
         response = make_response(response)
         return response
 
 @app.route('/api/docs')
-@app.route('/api/<conceitoId>/docs')
-def documento(conceitoId = None):
-    if conceitoId is None:
-        query = ("SELECT id, nome, contexto, arquivo FROM tb_documento")
-        response = json.dumps(aux_actions_db.consulta_BD(query))
+@app.route('/api/<docId>/docs')
+def documento(docId = None):
+    if docId is None:
+        response = json.dumps(api_riso.documents(docId))
         response = make_response(response)
         return response
     else:
-        query = ("SELECT doc.id, doc.nome, doc.contexto, doc.arquivo FROM tb_documento doc WHERE doc.id=(SELECT cd.id_documento FROM tb_conceito_docuento cd WHERE cd.id_conceito=\'"+str(conceitoId)+"\')")
-        response = json.dumps(aux_actions_db.consulta_BD(query))
+        response = json.dumps(api_riso.documents(docId))
         response = make_response(response)
         return response
 
 @app.route('/api/<conceitoId>/desc')
 def descricao(conceitoId = None ):
-    query = ("SELECT descricao FROM tb_conceito WHERE id=\'"+str(conceitoId)+"\'")
-    response = json.dumps(aux_actions_db.consulta_BD(query))
+    response = json.dumps(api_riso.description(conceitoId))
     response = make_response(response)
     return response

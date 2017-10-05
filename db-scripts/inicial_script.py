@@ -30,13 +30,18 @@ def execute_many_BD(insert,values):
 
 	conn.close()
 
+def addConcept(term, query):
+	query_add = """INSERT INTO tb_conceito (termo,contexto) VALUES ('"""+term+"""','thing');"""
+	aux_actions_db.update_BD(query_add)
+	termId = aux_actions_db.consulta_BD(query)
+	insertConceptDoc(termId[0][0])
+	return termId
+
 def getTermId(term):
 	query = """SELECT id FROM tb_conceito WHERE termo='"""+str(term)+"""'"""
 	termId = aux_actions_db.consulta_BD(query)
 	if len(termId) < 1:
-		query_add = """INSERT INTO tb_conceito (termo,contexto) VALUES ('"""+term+"""','thing');"""
-		aux_actions_db.update_BD(query_add)
-		termId = aux_actions_db.consulta_BD(query)
+		termId  = addConcept(term, query)
 	return termId
 
 
@@ -69,14 +74,24 @@ def insertRelation(term, dictRel):
 		for item in itens:
 			limit = len(item) - 1
 		 	item = item[1:limit]
-			aux_actions_db.update_BD("""INSERT INTO tb_relacao_semantica (id_conceito_principal,id_conceito_secundario,relacao)
-										VALUES ('"""+str(getTermId(term)[0][0])+"""
+			ids = getTermId(term)
+			for id in ids:
+				aux_actions_db.update_BD("""INSERT INTO tb_relacao_semantica (id_conceito_principal,id_conceito_secundario,relacao)
+										VALUES ('"""+str(id[0])+"""
 										','"""+str(getTermId(item)[0][0])+"""','"""+str(key)+"""');""")
 
 def insertConceptDoc(conceptId):
 	docId = getDocumentId(file)[0][0]
 	aux_actions_db.update_BD("""INSERT INTO tb_conceito_documento (id_conceito,id_documento)
 								VALUES ('"""+str(conceptId)+"""','"""+str(docId)+"""');""")
+
+def isInDB(term, desc, ctxt):
+	query = """SELECT id FROM tb_conceito WHERE termo='"""+str(term)+"""' AND descricao='"""+str(desc)+"""' AND contexto='"""+str(ctxt)+"""'"""
+	conceptId = aux_actions_db.consulta_BD(query)
+	if len(conceptId) < 1:
+		return False
+	else:
+		return True
 
 def concepts(data_file):
 	term = ""
@@ -93,7 +108,8 @@ def concepts(data_file):
 			desc = line[14:limit + 1]
 		else:
 			if term != "":
-				insertConcept(term, desc, ctxt)
+				if isInDB(term, desc, ctxt) == False:
+					insertConcept(term, desc, ctxt)
 				insertConceptDoc(getTermId(term)[0][0])
 				term = ""
 				ctxt = "thing"
