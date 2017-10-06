@@ -143,7 +143,7 @@ def relacoes(conceitoId = None):
         return response
 
 @app.route('/api/docs')
-@app.route('/api/<docId>/docs')
+@app.route('/api/<docId>/docs-info')
 def documento(docId = None):
     if docId is None:
         response = json.dumps(api_riso.documents(docId))
@@ -154,8 +154,14 @@ def documento(docId = None):
         response = make_response(response)
         return response
 
+@app.route('/api/<conceitoId>/docs')
+def conceitoDocs(conceitoId = None):
+    response = json.dumps(api_riso.conceitoDocs(conceitoId))
+    response = make_response(response)
+    return response
+
 @app.route('/api/<conceitoId>/desc')
-def descricao(conceitoId = None ):
+def descricao(conceitoId = None):
     response = json.dumps(api_riso.description(conceitoId))
     response = make_response(response)
     return response

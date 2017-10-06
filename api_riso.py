@@ -66,6 +66,15 @@ def documents(docId):
         response.append(dictionary(keys, value))
     return response
 
+def conceitoDocs(conceitoId):
+    keys = ["conceitoId", "docId", "nome", "contexto", "arquivo"]
+    response = []
+    query = "SELECT cd.id_conceito, d.id, d.nome, d.contexto, d.arquivo FROM tb_documento d, tb_conceito_documento cd WHERE (cd.id_documento=d.id AND cd.id_conceito=\'"+str(conceitoId)+"\')"
+    results = aux_actions_db.consulta_BD(query)
+    for value in results:
+        response.append(dictionary(keys, value))
+    return response
+
 def description(conceitoId):
     keys = ["conceitoId", "termo", "description"]
     response = []
