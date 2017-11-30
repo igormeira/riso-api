@@ -60,12 +60,6 @@ def insertConcept(term, desc, ctxt):
 			hc = hc[1:limit]
 			aux_actions_db.update_BD("""INSERT INTO tb_conceito (termo,contexto)
 										VALUES ('"""+term+"""','"""+hc+"""');""")
-	elif desc != None:
-		aux_actions_db.update_BD("""INSERT INTO tb_conceito (termo,descricao,contexto)
-									VALUES ('"""+term+"""','"""+desc+"""','"""+ctxt+"""');""")
-	else:
-		aux_actions_db.update_BD("""INSERT INTO tb_conceito (termo,contexto)
-									VALUES ('"""+term+"""','"""+ctxt+"""');""")
 
 def insertRelation(term, dictRel):
 	for key in dictRel:
